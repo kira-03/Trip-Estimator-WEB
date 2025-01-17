@@ -24,6 +24,7 @@ Trip Estimator is a sophisticated web application developed as an enhancement to
 - Express.js
 - Node.js
 - MySQL
+- [Backend Repository](https://github.com/kira-03/Trip-Estimator-Backend)
 
 ### Cloud Infrastructure
 - Microsoft Azure
@@ -104,6 +105,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👥 Team
 - Project developed by a team of 6 members
 - Collaboration with SAP Labs India
+
+## 🧩 Technical Reasons for Compartmentalization
+The backend for the Trip Estimator project has been compartmentalized into a separate repository for better efficiency and maintainability. This approach offers several benefits:
+
+- **Modularity**: By separating the backend from the frontend, we enable easier updates and enhancements to the backend services without interfering with the user-facing application.
+- **Scalability**: It allows for independent scaling of the backend and frontend based on their respective loads, optimizing overall system performance.
+- **Separation of Concerns**: Keeping the backend independent from the frontend ensures that each layer of the application focuses on its core responsibilities, promoting cleaner code and easier debugging.
+- **Team Collaboration**: Compartmentalization simplifies collaboration among developers working on different parts of the project. The backend team can work on API development while the frontend team focuses on UI enhancements.
+- **Deployment Flexibility**: With the backend isolated, it can be deployed independently to different environments or cloud services for better load balancing and availability.
 
 
 ## 🙏 Acknowledgments
