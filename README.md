@@ -28,42 +28,10 @@ Trip Estimator is a sophisticated web application developed as an enhancement to
 ### Cloud Infrastructure
 - Microsoft Azure
 - Azure Functions
-- Azure Cosmos DB
 
 ### Tools
 - Postman (API Testing)
 - Git & GitHub (Version Control)
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js (v14 or higher)
-- MySQL
-- Azure account
-- Git
-
-### Installation
-1. Clone the repository
-```bash
-git clone [your-repository-url]
-```
-
-2. Install dependencies
-```bash
-cd trip-estimator
-npm install
-```
-
-3. Set up environment variables
-```bash
-cp .env.example .env
-# Configure your environment variables
-```
-
-4. Start the development server
-```bash
-npm run dev
-```
 
 ## 💡 Usage
 
@@ -122,15 +90,6 @@ graph TB
 - Efficient request processing
 - Real-time updates
 
-## 🤝 Contributing
-We welcome contributions to improve the Trip Estimator project. Please follow these steps:
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 ## 🔄 Future Enhancements
 - Machine learning-based estimation improvements
 - Real-time price tracking integration
@@ -146,11 +105,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Project developed by a team of 6 members
 - Collaboration with SAP Labs India
 
-## 📞 Support
-For support and queries, please contact:
-- Create an issue in the repository
-- Email: [support@email.com]
-- Visit the Contact Us page in the application
 
 ## 🙏 Acknowledgments
 - SAP Labs India for project guidance
