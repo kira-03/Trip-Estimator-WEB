@@ -1,36 +1,161 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Trip Estimator | SAP Concur Enhancement
 
-## Getting Started
+![Project Status](https://img.shields.io/badge/status-completed-success)
+![License](https://img.shields.io/badge/license-MIT-blue)
 
-First, run the development server:
+## Overview
+Trip Estimator is a sophisticated web application developed as an enhancement to SAP Concur, designed to streamline the trip expense estimation and approval process. The application provides accurate cost estimates for business trips, enabling better budget management and informed decision-making.
 
+## 🌟 Key Features
+- **Smart Trip Estimation**: Advanced algorithms for calculating accurate trip costs
+- **Dual Interface**: Separate portals for applicants and approvers
+- **Role-based Authentication**: Secure access control using PASETO
+- **Real-time Notifications**: Instant alerts for approval status and estimate discrepancies
+- **Comprehensive Cost Analysis**: Detailed breakdown of various expense categories
+- **Interactive Dashboard**: User-friendly interface for managing trip requests
+
+## 🛠️ Technology Stack
+### Frontend
+- Next.js
+- React.js
+- Tailwind CSS
+
+### Backend
+- Express.js
+- Node.js
+- MySQL
+
+### Cloud Infrastructure
+- Microsoft Azure
+- Azure Functions
+- Azure Cosmos DB
+
+### Tools
+- Postman (API Testing)
+- Git & GitHub (Version Control)
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v14 or higher)
+- MySQL
+- Azure account
+- Git
+
+### Installation
+1. Clone the repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone [your-repository-url]
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies
+```bash
+cd trip-estimator
+npm install
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+3. Set up environment variables
+```bash
+cp .env.example .env
+# Configure your environment variables
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+4. Start the development server
+```bash
+npm run dev
+```
 
-## Learn More
+## 💡 Usage
 
-To learn more about Next.js, take a look at the following resources:
+### For Applicants
+1. **Registration & Login**
+   - Sign up with email verification
+   - Complete profile information
+   - Access the applicant dashboard
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Submit Trip Requests**
+   - Fill out trip details
+   - View cost estimates
+   - Submit for approval
+   - Track request status
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### For Approvers
+1. **Review Requests**
+   - Access approver dashboard
+   - Review trip details and estimates
+   - Compare requested vs. estimated amounts
+   - Approve/reject requests with comments
 
-## Deploy on Vercel
+## 🔐 Security Features
+- PASETO-based authentication
+- Role-based access control
+- Email verification
+- Encrypted data storage
+- Secure API endpoints
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📊 Project Architecture
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```mermaid
+graph TB
+    A[Frontend - Next.js] --> B[API Layer - Express.js]
+    B --> C[Database - MySQL]
+    B --> D[Azure Services]
+    D --> E[Storage]
+    D --> F[Authentication]
+    D --> G[Functions]
+```
+
+## 🎯 Core Functionalities
+- Trip cost estimation
+- Role-based user management
+- Email notifications
+- Request tracking
+- Historical data analysis
+- Budget comparison
+- Profile management
+- Feedback system
+
+## 📈 Performance Highlights
+- Scalable architecture
+- Quick response times
+- Reliable data storage
+- Efficient request processing
+- Real-time updates
+
+## 🤝 Contributing
+We welcome contributions to improve the Trip Estimator project. Please follow these steps:
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 🔄 Future Enhancements
+- Machine learning-based estimation improvements
+- Real-time price tracking integration
+- Advanced analytics dashboard
+- Mobile application development
+- Multi-language support
+- Expanded expense categories
+
+## 📝 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👥 Team
+- Project developed by a team of 6 members
+- Collaboration with SAP Labs India
+
+## 📞 Support
+For support and queries, please contact:
+- Create an issue in the repository
+- Email: [support@email.com]
+- Visit the Contact Us page in the application
+
+## 🙏 Acknowledgments
+- SAP Labs India for project guidance
+- Microsoft Azure for cloud infrastructure
+- All contributors and team members
+
+---
+© 2024 Trip Estimator. All Rights Reserved.
